@@ -1,0 +1,1 @@
+#!/bin/bash -l#SBATCH -t 01:00:00#SBATCH -p high#SBATCH --mem=8G#SBATCH -o “Atest1.out”#SBATCH -e “Atest1.err”/home/hennelly/bin/admixture_linux-1.3.0/admixture /home/jdowen/ecl243_data/B_batch_1.bed 2
